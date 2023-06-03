@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inconsolata:wght@300;500;700&family=Righteous&family=Shadows+Into+Light&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --fontesol: 'Inconsolata', monospace;
+  --fontelua: 'Shadows Into Light', cursive;
+  --fonteceu: 'EB Garamond', serif;
+  --fontemar: 'Righteous', cursive;
+  --corsol: ;
+  --corlua: ;
+  --corceu
+}
+
+body {
+  background-color: black;
+  color: white;
+  background-image: url(stars.png);
+}
+
+.fotoicon {
+  border-radius: 40%;
+}
+
+i {
+  padding: 30px 0px 30px 0px;
+}
+
+.sol {
+  color: yellow;
+  font-size: 100px;
+}
+
+.lua {
+  color: silver;
+  font-size: 100px;
+}
+
+.ceu {
+  color: white;
+  font-size: 100px;
+}
+
+.mar {
+  color: blue;
+  font-size: 100px;
+}
+
+ul {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  font-size: 100px;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 100px;
+  padding-top: 120px;
+}
+
+.titlemapa {
+  padding-top: 0px;
+}
+
+.linkceu {
+  font-family: var(--fonteceu);
+  color: white;
+  text-decoration: none;
+}
+
+.linklua {
+  font-family: var(--fontelua);
+  color: silver;
+  text-decoration: none;
+}
+
+.linkmar {
+  font-family: var(--fontemar);
+  color: blue;
+  text-decoration: none;
+}
+
+.linksol {
+  font-family: var(--fontesol);
+  color: yellow;
+  text-decoration: none;
+}
+
+.linkmapa {
+  color: orange;
+  text-decoration: none;
+}
+
+.mapa {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+header {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.headersol {
+  background-image: url(headersol.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 90%;
+}
+
+.headerlua {
+  background-image: url(headerlua.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 90%;
+}
+
+.headerceu {
+  background-image: url(headerceu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 90%;
+}
+
+.headermar {
+  background-image: url(headermar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 90%;
+}
+
+p {
+  padding-top: 120px;
+  font-size: 20px;
+  margin: 30px;
+}
+
+.historiasol {
+  font-family: var(--fontesol);
+  color: yellow;
+}
+
+.historialua {
+  font-family: var(--fontelua);
+  color: silver;
+}
+
+.historiaceu {
+  font-family: var(--fonteceu);
+  color: white;
+}
+
+.historiamar {
+  font-family: var(--fontemar);
+  color: blue;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
